@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "983742412309",
+    "firebase_url": "https://finalfoodapp.firebaseio.com",
+    "project_id": "finalfoodapp",
+    "storage_bucket": "finalfoodapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983742412309:android:8f4c116d0a1ab7c9",
+        "android_client_info": {
+          "package_name": "com.instadp.profilepicture.finalfoodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983742412309-7b7aeg4onj7vbcqf0u0ote9fep4gafge.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.instadp.profilepicture.finalfoodapp",
+            "certificate_hash": "3aa4e5660d0898a305232125df7395f510ab2ce3"
+          }
+        },
+        {
+          "client_id": "983742412309-io0apohp929pn5gdtdvhq4n5jput7ecc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf9hgephpnaPlHzVlcbn4bzg-Shmmv8fI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983742412309-io0apohp929pn5gdtdvhq4n5jput7ecc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983742412309:android:a2e94dbe2e1d51d0",
+        "android_client_info": {
+          "package_name": "com.instadp.profilepicture.finalfoodappserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983742412309-io0apohp929pn5gdtdvhq4n5jput7ecc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf9hgephpnaPlHzVlcbn4bzg-Shmmv8fI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
