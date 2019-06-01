@@ -2,6 +2,7 @@ package com.instadp.profilepicture.finalfoodappserver;
 
 import android.app.DownloadManager;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -40,6 +41,7 @@ public class OrderStatus extends AppCompatActivity {
     FirebaseDatabase db;
     DatabaseReference requests;
     MaterialSpinner spinner;
+    String ordid="";
     String subname="";
     PubNub pubnub1;
     PNStatus status1;
@@ -130,6 +132,7 @@ public class OrderStatus extends AppCompatActivity {
                 viewHolder.setItemOnClickListner(new ItemOnClickListner() {
                     @Override
                     public void onClick(View view, int position, boolean isLongClick) {
+
                     }
                 });
 
@@ -153,7 +156,13 @@ public class OrderStatus extends AppCompatActivity {
         }
         else if(item.getTitle().equals(Common.DETAIL))
         {
-            Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, ordid, Toast.LENGTH_SHORT).show();
+            Intent i=new Intent(OrderStatus.this,OrderDetail.class);
+            i.putExtra("ordid",adapter.getRef(item.getOrder()).getKey());
+
+
+
+            startActivity(i);
         }
         return super.onContextItemSelected(item);
     }

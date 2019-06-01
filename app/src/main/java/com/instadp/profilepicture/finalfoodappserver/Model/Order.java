@@ -6,61 +6,61 @@ package com.instadp.profilepicture.finalfoodappserver.Model;
 
 public class Order {
 
-    private String ProductId;
-    private String ProduceName;
-    private String Quantity;
-    private String Price;
-    private String Discount;
+    private String productId;
+    private String produceName;
+    private String quantity;
+    private String price;
+    private String discount;
 
     public Order() {
 
     }
 
     public Order(String productId, String produceName, String quantity, String price, String discount) {
-        ProductId = productId;
-        ProduceName = produceName;
-        Quantity = quantity;
-        Price = price;
-        Discount = discount;
+        this.productId = productId;
+        this.produceName = produceName;
+        this.quantity = quantity;
+        this.price = price;
+        this.discount = discount;
     }
 
     public String getProductId() {
-        return ProductId;
+        return productId;
     }
 
     public void setProductId(String productId) {
-        ProductId = productId;
+        this.productId = productId;
     }
 
     public String getProduceName() {
-        return ProduceName;
+        return produceName;
     }
 
     public void setProduceName(String produceName) {
-        ProduceName = produceName;
+        this.produceName = produceName;
     }
 
     public String getQuantity() {
-        return Quantity;
+        return quantity;
     }
 
     public void setQuantity(String quantity) {
-        Quantity = quantity;
+        this.quantity = quantity;
     }
 
     public String getPrice() {
-        return Price;
+        return price;
     }
 
     public void setPrice(String price) {
-        Price = price;
+        this.price = price;
     }
 
     public String getDiscount() {
-        return Discount;
+        return discount;
     }
 
     public void setDiscount(String discount) {
-        Discount = discount;
+        this.discount = discount;
     }
 }
