@@ -10,6 +10,8 @@ public class Common {
     public static User currentUser;
     public static final  String UPDATE ="Update";
     public static final  String DELETE ="Delete";
+    public static final  String DETAIL ="View Order Detail";
+
     public static String convertCodeToStatus(String code)
  {
      if(code.equals("0")){

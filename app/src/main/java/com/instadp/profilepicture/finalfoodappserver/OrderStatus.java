@@ -151,8 +151,13 @@ public class OrderStatus extends AppCompatActivity {
         {
             deleteOrder(adapter.getRef(item.getOrder()).getKey());
         }
+        else if(item.getTitle().equals(Common.DETAIL))
+        {
+            Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
+        }
         return super.onContextItemSelected(item);
     }
+
 
     private void showUpdateDialog(String key, final Request item) {
        AlertDialog.Builder alertDialog=new AlertDialog.Builder(OrderStatus.this);
